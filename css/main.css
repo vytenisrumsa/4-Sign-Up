@@ -1,0 +1,19 @@
+.container {
+    display: inline-block;
+    width: 800px;
+    margin-top: 100px;
+    background-color: red;
+    margin-left: calc((100% - 800px) / 2);
+
+}
+
+.left-columm {
+    float: left;
+    width: 40%;
+    background-color: blue;
+}
+.right-columm:last-of-type {
+    width: 60%;
+    float: left;
+    background-color: yellow;
+}
